@@ -1,0 +1,205 @@
+/* Main Settings */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: rgb(247, 247, 247);
+    --bg-url: url(./assets/bg-gradient-destktop-dark.svg);
+    --stroke-color: rgba(247, 247, 247, 0.4);
+    --surface-color: rgba(247, 247, 247, 0.1);
+    --switch-icon-url: url(./assets/icon-moon.svg);
+}
+
+.light {
+    --text-color: rgb(30, 32, 40);
+    --bg-url: url(./assets/bg-gradient-destktop-light.svg);
+    --stroke-color: rgba(30, 32, 40, 0.5);
+    --surface-color: rgba(30, 32, 40, 0.08);
+    --switch-icon-url: url(./assets/icon-sun.svg);
+}
+
+/* Body Settings */
+
+body {
+    /* border: 1px solid violet; */
+    height: 100dvh;
+    background: var(--bg-url) no-repeat top center/cover;
+    background-attachment: fixed;
+}
+
+body * {
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--text-color);
+}
+
+/* Main Container */
+
+#con-main {
+    /* width: 400px; */
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+/* Profile Container */
+
+#con-profile {
+    /* border: 1px solid blue; */
+    text-align: center;
+    padding: 24px;
+    margin: 56px auto 0;
+}
+
+#con-profile img {
+    width: 140px;
+    margin: auto;
+    border: 3px solid var(--stroke-color);
+    border-radius: 100%;
+}
+
+#con-profile p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+/* Switch Container */
+
+#switch {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#switch button {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background: rgb(247, 247, 247) var(--switch-icon-url) no-repeat center;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 2px 0px rgb(30, 32, 40);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+#switch span {
+    display: block;
+    width: 70px;
+    height: 22px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 11px;
+}
+
+.light #switch button {
+    right: 0;
+    left: initial;
+}
+
+/* Link List Container */
+
+ul {
+    /* border: 1px solid lightseagreen; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 28px 24px 24px;
+}
+
+ul li a {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 24px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    border-radius: 300px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+ul li a:hover {
+    background: linear-gradient(to left, rgba(234, 57, 94, 1),rgba(226, 86, 86, 1));
+    border: 1px solid var(--stroke-color);
+}
+
+/* Social Icons Container */
+
+#con-social {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 0px;
+    margin: 12px auto;
+}
+
+#social-icon {
+    display: flex;
+    /* border: 1px solid violet; */
+    padding: 2px;
+    margin: 0 5px;
+}
+
+#social-icon svg {
+    width: 25px;
+    fill: currentColor;
+}
+
+#social-icon a {
+    display: flex;
+}
+
+#social-icon a svg:hover {
+    fill: url(#svg-gradient);
+}
+
+/* Footer Settings */
+
+footer {
+    /* border: 1px solid red; */
+    padding: 32px 0px 32px 0px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    background: linear-gradient(to left, rgba(234, 57, 94, 1),rgba(226, 86, 86, 1));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
