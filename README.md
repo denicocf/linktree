@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <img src=".github/linktree-mockup.jpg" alt="Denico's LinkTree mockup with smartphone and laptop" width="100%">
+    <img src=".github/denico-linktree-mockup.jpg" alt="Denico's LinkTree mockup with smartphone and laptop" width="100%">
 </p>
 
 <h2>
