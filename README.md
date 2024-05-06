@@ -2,10 +2,16 @@
     Denico's LinkTree
 </h1>
 
-<h2>About</h2>
+<p align="center">
+    <img src=".github/linktree-mockup.jpg" alt="Denico's LinkTree mockup with smartphone and laptop" width="100%">
+</p>
+
+<h2>
+    About
+</h2>
 
 <p align="center">
-        [EN] I'm very happy with my first (and small) project.
+        <b>[EN]</b> I'm very happy with my first (and small) project.
     <br>
         This moment became the starting point of my journey as a programmer.
 </p>
@@ -17,13 +23,15 @@
 </p>
 
 <p align="center">
-    Thank you very much to them!
+    Thank you very much to them! ❤️
 </p>
 
-<h2>Sobre</h2>
+<h2>
+    Sobre
+</h2>
 
 <p align="center">
-        [BR] Estou muito feliz com meu primeiro (e pequeno) projeto!
+        <b>[BR]</b> Estou muito feliz com meu primeiro (e pequeno) projeto!
     <br>
         Este momento se tornou o marco inicial da minha trajetória como programador.
 </p>
@@ -35,8 +43,10 @@
 </p>
 
 <p align="center">
-    Muito obrigado a eles!
+    Muito obrigado a eles! ❤️
 </p>
 
 <h2>Links</h2>
-www.rocketseat.com.br/journey/discover
+<a href="https://app.rocketseat.com.br/journey/discover/overview">Rocketseat Discover</a>
+<br>
+<a href="https://github.com/maykbrito">Mayk Brito</a>
