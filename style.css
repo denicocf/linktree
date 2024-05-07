@@ -107,8 +107,24 @@ body * {
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
+<<<<<<< HEAD
     cursor: pointer;
     animation: slide-out 0.4s forwards;
+=======
+    left: 0;
+    cursor: pointer;
+}
+
+#switch span {
+    display: block;
+    width: 70px;
+    height: 22px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 11px;
+>>>>>>> f4e2fd60bc8ef7a3273103e7f2b31b8a0f2a8774
 }
 
 .light #switch button {
