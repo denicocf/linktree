@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-    Thank you very much to them! ❤️
+    Thank you very much! ❤️
 </p>
 
 <h2>
@@ -43,7 +43,7 @@
 </p>
 
 <p align="center">
-    Muito obrigado a eles! ❤️
+    Muito obrigado! ❤️
 </p>
 
 <h2>Links</h2>
