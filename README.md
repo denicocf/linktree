@@ -1,5 +1,5 @@
 <h1 align="center">
-    Denico's LinkTree
+    Denico's DevLinks
 </h1>
 
 <p align="center">
@@ -46,7 +46,7 @@
     Muito obrigado! ❤️
 </p>
 
-<h2>Links</h2>
+<h2>Other Links</h2>
 <a href="https://app.rocketseat.com.br/journey/discover/overview">Rocketseat Discover</a>
 <br>
 <a href="https://github.com/maykbrito">Mayk Brito</a>
